@@ -1,0 +1,13 @@
+development:
+  clients:
+    default:
+      uri: mongodb+srv://jawaid:<password_here>@cluster0.rmjaw.mongodb.net/ror_api?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
+
+test:
+  clients:
+    default:
+      uri: mongodb+srv://jawaid:<password_here>@cluster0.rmjaw.mongodb.net/ror_api?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
